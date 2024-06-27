@@ -120,7 +120,7 @@ rolls.forEach(function(roll){
      <p>${roll.recipe}</p>
      `
 let orderBigBtn = document.createElement("button");
-    orderBigBtn.innerHTML="karzinku";
+    orderBigBtn.innerHTML="Корзина";
     orderBigBtn.className="orderBigBtn";
     productBigText.append(orderBigBtn); 
     orderBigBtn.addEventListener("click",function(){
