@@ -217,3 +217,96 @@ input[type="submit"]{
  .rollName{
     width: 40%;
  }
+ @media only screen and (max-width: 1024px){
+    .product-big-container{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .productBigImg{
+        width: 100%;
+        height: 150px;
+    }
+    .productBigText{
+        width: 100%;
+        height: 350px;
+        padding: 0;       
+        text-align: center;        
+    }
+    .productInfo{
+        padding: 0;
+        margin: 10px;
+    }
+    .productBig{
+        padding: 50px;
+    }
+    .product{
+        width: 100%;
+    }
+    .order{
+        width: 90%;
+    }
+    .productBigText>*{
+        padding: 10px 30px;
+        margin: 0;
+    }
+    .basket{
+        right: 5px;
+        top: 5px;
+    }
+    .all-count-container{
+        top: 55px;
+        right: 40px;
+    }
+    .all-price-container {
+        right: 100px;
+        top: 30px;
+    }
+
+
+
+ }
+ @media only screen and (max-width: 600px){
+    .product{
+        width: 100%;
+    }
+    .product-big-container{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .productBig{
+      width: 100%;
+        padding: 20px;
+    }
+    .order{
+        width: 90%;
+    }
+    #roll{
+        padding: 10px;
+    }
+    .product-big-container{
+    display: flex;
+        flex-wrap: wrap;
+    }
+    .productBigImg{
+        width: 100%;
+        height: 200px;
+    }
+    .productBigText{
+        width: 100%;
+        height: 300px;
+        padding: 0;
+        text-align: center;        
+    }
+    .close{
+        color: white;
+        border: 2px solid white;
+    }
+    
+
+    
+ }
+
