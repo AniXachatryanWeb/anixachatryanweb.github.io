@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height:auto;
+    background-color:rgb(221, 218, 218);
+
+
+}
+
+.container{
+    width: 80%;
+    height: 600px;
+    margin: auto; 
+    text-align: center;
+    padding: 100px 0;
+    outline: 0;   
+  }
+
+  .my-img{
+    width: 40%;
+    height: 500px;
+    float: right;
+    background-image: url(../img/464974142_556149320697043_3506325197708011215_n.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+
+  }
+  .container h1{
+    width: 70%;
+    font-size: 50px;
+    margin: 10px;
+    color: rgb(102, 136, 136);
+    border: 5px solid black;
+    border-top: none;
+ 
+
+  }
+  .container h5{
+    width: 40%;
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(102, 136, 136);
+    border: 5px solid black;
+    border-bottom: none;
+  }
+.container:hover{
+    background-color: rgba(70, 69, 69, 0.23);
+    
+}
+.fa-address-book{
+    font-size: 30px;
+    padding: 10px;
+}
+.fixed-div{
+  width: 100%;
+  height:100%;
+  background-image:url(../img/img3.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 10% 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.kontakt{
+  width: 100%;
+  height: auto;
+  background-color: rgba(238, 234, 234, 0.997);  
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+
+}
+.kontakt-bid{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+input{
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+}
+
+#knowledges{
+  width: 100%;
+  height:auto;
+  background-color:rgb(221, 218, 218);
+  display: flex;
+  flex-wrap: wrap;
+
+ 
+}
+.a{
+  width: 100%;
+  height: 130px;
+
+  font-size: 50px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+
+
+
+.knowledge-container p{
+ margin: 0 30px ;
+}
+.knowledge-container{
+  width: 40%;
+  height:auto;
+  background-color:white;
+  padding: 10px;
+  margin: 10px auto;
+  border: 3px solid black;
+  box-shadow: 10px 10px 10px rgb(57, 58, 57);
+
+
+}
+.knowledge{
+  width: 60%;
+  height: 25px;
+  background-color: rgb(11, 11, 11);
+  border-radius: 10px;
+  margin: 20px;
+
+
+}
+
+
+.knowledge-html{
+  height: 25px;
+  background-color: rgba(207, 212, 207, 0.699);
+  border-radius: 20px;
+
+}
+.knowledge-css{
+  height: 25px;
+  border-radius: 20px;
+  background-color: rgba(207, 212, 207, 0.699);
+
+
+
+}
+
+.knowledge-js{
+  height: 25px;
+  border-radius: 20px;
+  background-color:rgba(207, 212, 207, 0.699);
+}
+.biography{
+  width: 40%;
+  height: auto;
+  background-color: white;
+  margin: 10px auto;
+  padding: 50px;
+  text-align: center;
+  border: 3px solid black;
+  box-shadow: 10px 10px 10px rgba(42, 43, 42, 0.778);
+}
+#websites{
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  flex-wrap: wrap;
+
+}
+.text{
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  color: rgb(113, 111, 111);
+  padding-top: 100px;
+  font-size: 30px;
+
+}
+.klinika{
+  width: 40%;
+  height: 300px;
+  margin: auto;
+
+}
+.klinika:hover{
+  border: 4px solid black;
+}
+
+.sushi{
+  width: 40%;
+  height: 300px;
+  margin: auto;
+}
+.sushi:hover{
+  border: 4px solid black;
+}
+.klinika-img{
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/klinika.png);
+  background-size: cover;
+}
+.sushi-img{
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/sushi.png);
+  background-size: cover;
+
+}
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(11, 11, 11);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+@keyframes loader{
+  from{
+      transform: scale(2,0);
+  }
+  to{
+      transform:scale(1,1);
+  }
+}
+.Kontakt{
+  width: 100%;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.46);
+}
+.kontaktinfo{
+  width: 40%;
+  height: 600px;
+  background-color: blue;
+}
+.orderBtn{
+  width: 60px;
+  height: 20px;
+  background-color: rgb(1, 1, 1);
+}
+.infoImg{
+  width: 30%;
+  height: 100%;
+}
+.information{
+  width: 50%;
+  height: 100%;
+
+}
+.show{
+  display: block;
+
+}
+@keyframes spin{
+  from{
+    transform: scale(0,1);
+   
+}
+to{
+    transform:scale(1.0);
+    background-color: blue;
+}
+}
+
+@media only screen and (max-width:1024px){
+  .my-img {
+ 
+  
+  }
+#home{
+  
+}
+  .container h1{
+    font-size: 40px;
+  }
+  input{
+    width: 70%;
+    font-size: 25px;
+  }
+  .knowledge-container {
+    width: 90%;
+    margin: 50px;
+
+  }
+  .biography{
+    width: 90%;
+    margin: 50px;
+    font-size: 25px;
+  }
+  #knowledges{
+    padding: 0px;
+    flex-wrap: wrap;
+  }
+  #websites{   
+    height: 800px;  
+  }
+  .klinika{
+    width: 80%;
+    margin: 0;
+
+  }
+  .sushi{
+    width: 80%;
+  }
+  .kontakt{
+    padding: 0;
+  }
+}
+@media only screen and (max-width:600px){
+  .biography{
+    padding: 0;
+    margin: 20px auto ;
+  }
+  .kayqer{
+    height: 300px; 
+    padding: 0;
+  }
+  .container{
+    padding: 0;
+  }
+  .kontakt{
+    padding: 0;
+  }
+  .my-img {
+    background-position: center;
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+    padding: 0;
+  }
+  .container h5,
+  .container h1
+  {
+  border: none;
+  color: black;
+    font-size: 25px;
+    margin: 0;
+  }
+  .container p{
+    font-size: 20px;
+  }
+  iframe{
+    width: 60%;
+  }
+  input{
+    width: 90%;
+    font-size: 20px;
+  }
+  #knowledges{
+    padding: 0;
+  }
+  .knowledge-container{
+    width: 90%;
+    padding: 0;
+    margin:10px  auto;
+  }
+  #home{
+ 
+    margin: 0;
+    padding: 0;
+    
+  }
+  .kontakt{
+    padding: 0;
+  }
+.a{
+  padding-top: 10px;
+  font-size: 30pxd;
+}
+
+.biography{
+  padding: 10px;
+}
+#websites{
+  margin: 0;
+}
+.text{
+  padding-top: 0;
+}
+.klinika-img{
+  background-size: cover;
+  background-position: center center;
+}
+.klinika{
+  margin: 0;
+  width: 90%;
+
+}
+.sushi{
+  margin: 0;
+  width: 90%;
+}
+
+.fixed-div{
+background-size: cover;
+background-position: center center;
+}
+
+  
+}
+
