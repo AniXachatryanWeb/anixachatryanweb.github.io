@@ -1,0 +1,778 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+  
+}
+#header{
+    width: 100%;
+    height: auto;
+    background-image: url(../img/Frame_67\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 10px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+ul{   
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+li>a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: black;    
+}
+.menu{
+    width:30%;    
+}
+.logo{
+    width: 10%;
+    height: 60px;
+    background-image: url(../img/logo.svg);    
+    background-repeat: no-repeat;  
+}
+.contakt{
+
+    width: 15%;
+    height:auto;
+    font-size: 15px;    
+}
+.beauty{
+    width:50%;
+    padding: 100px;    
+}
+.beauty h1{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;    
+    padding:20px;    
+}
+.beauty p
+{
+    font-size: 25px;
+    margin: 50px 0;
+    padding: 10px;
+    /* font-weight: 300; */
+    color: #827d7d;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{  
+   padding: 20px 60px;  
+   margin: 20px;   
+   font-size: 20px;
+   background-color:#7b9c86;
+   color: white;
+   border: none;
+}
+#home{
+    width: 100%;   
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    padding: 50px;    
+}
+#home p{
+    color: #878383;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.cosmetik{
+    width:100%;
+    height:200px;   
+}
+.cosmetik1{
+ 
+    background-image: url(../img/image\ \(1\).png);
+    background-size: cover;   
+}
+.cosmetik2{
+    
+    background-image: url(../img/2.png);
+    background-size: cover;    
+}
+.cosmetik3{
+
+    background-image: url(../img/3.png);
+    background-size: cover;
+}
+.cosmetik4{
+    
+    background-image: url(../img/4.png);
+    background-size: cover;
+    
+}
+.cosmetik5{    
+    background-image: url(../img/5.png);    
+    background-size: cover;
+}
+.cosmetik6{
+    background-image:url(../img/6.jpg);
+    background-size: cover;
+}
+.glavny{
+    width: 27%;
+    height: auto;
+    margin: 30px;
+}
+.glavny h1{
+    font-size:20 px;
+}
+#klinika-container
+{
+    width: 100%;
+    height:auto;
+    background: #f0f5f2;
+    padding: 100px;  
+}
+.klinik-logo{
+    width: 40%;
+    height: 100px;
+    background-image: url(../img/terev.svg);
+    background-repeat: no-repeat;
+    margin: auto;    
+}
+#klinika-container>p{
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 100px 150px;       
+}
+#klinika{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: #f0f5f2;
+    justify-content: center;
+}
+.klinik-image1{
+    width: 100%;
+    height:700px;
+    background-image: url(../img/1111.png);
+    background-size: cover;
+    margin: 10px;   
+}
+.klinik-image2{
+    width: 60%;
+    height: 600px;
+    background-image: url(../img/222.png);
+    background-size: cover;
+    margin: 10px;   
+}
+.klinik-image3{
+    width: 37%;
+    height: 600px;
+    background-image: url(../img/3333.png);
+    background-size: cover;
+    margin:10px;    
+}
+.text-container{
+   width: 70%;
+   height: 250px;
+}
+.text-container>p{
+    font-size: 30px;
+    padding: 0 250px;  
+}
+.text-container h1{
+    font-size: 40px;
+    padding: 20px 300px; 
+}
+.action1{
+    width: 35%;
+    height: 300px;  
+    background-image: url(../img/666.png);
+    background-size: cover;
+}
+.action2{
+    width: 35%;
+    height:auto;       
+}
+.action2 h1{
+   font-size: 25px; 
+   padding: 20px; 
+}
+.action2 p{
+    font-size: 25px;
+    padding: 30px;    
+}
+#colega{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;   
+}
+.colega{
+    width: 100%;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;  
+}
+
+.colega-text{
+    width: 100%;
+    height: 200px;
+}
+.colega-text h1{
+    font-size: 50px;
+    text-align: center;
+    padding:100px 30px;
+}
+.colega-container{
+    width:15%;
+    height: 300px;
+   margin: 50px; 
+}
+#colega p{
+    color: #827d7d;
+    text-align: center;
+}
+#colega h5{
+    text-align: center;  
+}
+.colega-image1{
+      background-image: url(../img/img1212.png)
+}
+.colega-image2{
+    background-image: url(../img/img133.png)
+}
+
+.colega-image3{
+    background-image: url(../img/img1414.png)
+}
+.colega-image4{
+    background-image: url(../img/1818.png)
+}
+.colega-logo{
+    width: 50%;
+    height: 100px;
+    background-image: url(../img/terev.svg);
+    background-repeat: no-repeat;
+}
+
+#colega>p {
+    text-align: center;
+    font-size: 30px;
+    padding: 100px 350px;
+}
+
+#klent{
+    width: 100%;
+    height: 700px;
+    background-color:#f0f5f2;      
+}
+#klent h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+}
+#klent p{
+    font-size: 30px;
+    padding: 50px 350px;
+}
+.klent-image{
+    width: 10%;
+    height: 140px;
+    background-image: url(../img/kleient.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    border-radius: 50%;
+}
+ h2{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;   
+}
+#kontakt{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-image: url(../img/terevner.jpg);
+    padding: 200px 0;
+}
+
+#kontakt h1{
+    color: wheat;
+}
+#kontakt p{
+    color: wheat;  
+    font-size: 20px;
+    padding: 30px ;
+}
+#kontakt input{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;     
+}
+
+form{
+    width: 50%;
+    margin: auto;
+}
+input[type="submit"]{
+    background-color: #7b9c86;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(../img/iqon1.png);
+}
+.carousel-control-next-icon{
+    background-image: url(../img/icon2-removebg-preview.png);  
+}
+.carousel-caption {
+    width: 40%;
+    height: 400px;   
+    color:black;
+    left: 45%; 
+    top: 100px;
+    font-size: 30px; 
+    
+}
+.carousel-caption>h5{
+    font-size: 30px;
+   
+}
+.carousel-item{
+    padding: 100px;
+}
+.my-div{
+    width:100%;
+    height: 300px;   
+}
+.my-carousel{
+    width: 40%;
+    height:400px; 
+}
+.carousel-inner{
+    width: 100%;
+    display: flex;
+    padding-left:100px;
+}
+#coment{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding:100px 0px;
+    background-color: #f0f5f2;;
+    
+}
+ .coment{    
+    width: 24%;
+    height: 300px;
+    margin: 7px ;    
+    background-size: cover; 
+
+ }
+.coment-image1{
+    
+    background-image: url(../img/img1.jpg);
+}
+.coment-image2{
+ 
+    background-image: url(../img/img2.jpg);
+}
+.coment-image3{
+  
+    background-image: url(../img/img3.jpg);
+}
+
+.coment-image4{
+ 
+    background-image: url(../img/img4.jpg);
+}
+
+.coment-image5{
+    
+    background-image:url( ../img/img5.jpg);
+}
+
+.coment-image6{
+
+    background-image: url( ../img/img6.jpg);
+}
+
+.coment-image7{
+    
+    background-image: url( ../img/img7.jpg);
+}
+
+.coment-image8{
+    background-image: url(../img/img8jpg.jpg);
+
+}
+#coment h1{
+    width: 100%;
+    font-size: 70px;
+    text-align: center;
+
+
+}
+#coment p{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding:50px;
+}
+
+#maps{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iframe{
+    width: 40%;
+    height:400px;
+    float: right;
+
+
+}
+.maps{
+    width: 35%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+#maps p{
+font-size: 20px; 
+}
+#maps h1{
+    font-size: 40px;
+   
+}
+.fa-brands{ 
+ 
+    font-size: 30px;
+    margin: 10px;
+  
+ 
+  
+   
+
+
+  
+} 
+footer{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: 100px;
+    color: white;
+    background-color: black;
+}
+@media only screen and (max-width:1024px){
+    header{
+        background-position:70%  center;
+
+    }
+    .beauty{
+        padding: 0;
+    }
+    .glavny{
+        width: 40%;
+        padding: 0;
+    }
+    .glavny h1{
+        font-size: 20px;
+    }
+  
+ 
+    #klinika-container>p{        
+      font-size: 20px;
+      padding: 0;
+    
+    }
+    .klinik-image1{
+        width: 100%;
+        height: 400px;  
+    
+        
+    }
+    .klinik-image2{
+        width: 55%;    
+
+    }
+    .klinik-image3{
+        width: 40%;
+    }
+    .text-container {
+        width: 100%;
+        height: 300px;
+        margin: auto 40px;      
+
+    }
+    .text-container>p{
+        padding: 40px;
+        text-align: center;
+    }
+    .text-container>h1{
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .carousel-caption>p{
+    font-size: 20px;
+
+}
+    .colega-text h1{
+        padding: 30px;
+
+    }
+    .colega-text{
+        height: auto;
+    }
+     .colega-container{
+    width: 29%; 
+    margin:30px;    
+    height: auto;
+}
+
+#colega p{
+    padding: 10px;
+}
+     #klent p{
+    padding: 0 100px ;
+    font-size: 30px;
+
+}
+     .klent-image{
+  width: 15%;
+  height: 170px;
+
+}
+    .coment{
+    width: 30%;
+    margin:10px ;
+    
+}  
+}
+@media only screen and (max-width:600px){
+   
+    #header{
+        height:800px;
+        background-size:cover; 
+        background-position:20% left;
+    }
+    #home{
+        padding: 0;
+        
+    }
+    .beauty{
+        width: 35%;
+        padding: 0;
+
+    }
+
+    .beauty h1{
+        font-size: 15px;
+        padding: 0;
+  
+    }
+    .beauty p{
+        font-size:18px ;
+        padding: 0;
+    }
+    button{
+        padding:0 ;   
+        margin: 0;
+    }
+    .glavny{
+        width: 100%;       
+        padding: 0;
+    }
+    .klinik-image1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .klinik-image2{
+        width: 100%;
+        height: 400px;
+    }
+
+    .klinik-image3{
+        width:100%;
+        height: 500px;  
+    }
+    .text-container {
+        padding: 0;
+    }
+    .text-container  h1{
+        font-size: 32px;
+        padding: 0;
+    }
+    .text-container p{
+        padding:0;
+        font-size: 30px;
+    }
+    .carousel-item{
+        width: 100%;
+        height: 650px;
+        padding: 20px;
+    }
+    .my-carousel{
+        width: 100%;
+        height: 300px; 
+      margin: 0;   
+    }
+   .carousel-caption {
+    width: 100%;
+    height: 300px;
+    top:310px;
+    left:0;
+    padding: 10px;
+   }
+   .carousel-inner{
+    padding: 0px;
+   }
+   .colega-container{
+    width: 100%;  
+    
+   }
+   .coment{
+    width: 45%;
+    margin:10px ;
+    background-size: cover;
+   }
+
+   .d-none{
+    display: block !important;
+   }
+   #klinika-container{
+    padding: 10px;
+ 
+    
+   }
+   #colega p{
+    font-size: 18px;
+    padding: 0;
+   }
+   #colega{
+    padding: 10px;
+
+
+   }
+   .colega{
+    width: 250px;
+    margin:auto;
+   }
+   #klent{
+    padding: 0;
+    height: 600px;
+
+   }
+   #klent h1{
+    font-size: 25px;
+   }
+   #klent p{
+    padding: 0;
+    font-size: 18px;
+   }
+   .klent-image{
+    width: 50%;
+   }
+   #kontakt p{
+    padding: 15px;
+   }
+   #kontakt{
+    padding: 0;
+   }
+   form{
+    width: 80%;
+   
+   }
+   #coment  h1{
+    font-size: 25px;
+   }
+   #coment  p{
+    padding: 0;
+   }
+   #coment{
+    padding: 0;
+   }
+   .coment{
+    width: 100%;
+   }
+   .maps{
+    width: 50%;
+    padding: 0;
+   
+   }
+   .ifrem{
+    width: 50%;
+    padding: 0;
+   }
+   .contakt{
+    width: 100%;
+    padding: 0;
+   }
+   nav{
+    flex-wrap: wrap;
+    padding: 0;
+   }
+   .menu{
+
+    width: 80%;
+   }
+   .logo{
+    margin:10px 0;
+   }
+   footer{
+    padding: 1px;
+    height: 150px;
+   }
+   #maps{
+    flex-wrap: wrap;
+   }
+   .maps{
+    width: 100%;
+   }
+   .iframe{
+    width: 100%;
+    height: 300px;
+   }
+   .colega-logo{
+    height: 20px;
+   }
+   .colega-text h1{
+    font-size: 20px;
+    padding: 0;
+   }
+   .klinik-logo {
+    height: 30px;
+   }
+   .carousel-control-prev{
+    bottom: 250px; 
+    left: 0;
+   }
+   .carousel-control-next {
+    bottom: 250px;
+    right: 0;
+   }
+
+
+
+}
+  
+
+
+
+
